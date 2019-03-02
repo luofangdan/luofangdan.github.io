@@ -125,6 +125,10 @@
 	color: #fff;
 	text-align: center;
 }
+.contact{
+	clear: all;
+	overflow: hidden;
+}
 .contact-box{
 	width: 1140px;
 	background: #fff;

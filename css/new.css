@@ -129,7 +129,7 @@
 	clear: all;
 	overflow: hidden;
 }
-.contact-box p{
+.contact .row div p{
 	padding-top: 1rem;
 }
 input.contact-inpute{

@@ -129,23 +129,10 @@
 	clear: all;
 	overflow: hidden;
 }
-.contact-box{
-	width: 1140px;
-	margin: 0 auto;
-	background: #fff;
-	border-radius: .6rem;
-	padding: 3%;
-	box-shadow: 0px 3px 8px rgba(0,0,0,.1);
-	clear: all;
-	overflow: hidden;
-}
-.contact-box .fr{
-	float: right;
-}
 .contact-box p{
 	padding-top: 1rem;
 }
-.contact-box input{
+input.contact-inpute{
 	width: 80%;
 	border-top: 0;
 	border-left: 0;

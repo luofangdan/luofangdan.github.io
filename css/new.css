@@ -131,6 +131,7 @@
 }
 .contact-box{
 	width: 1140px;
+	margin: 0 auto;
 	background: #fff;
 	border-radius: .6rem;
 	padding: 3%;

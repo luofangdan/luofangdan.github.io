@@ -90,9 +90,14 @@ span.menu {
 	overflow:hidden;
 }
 .banner {
-  background: url(../images/banner.png)no-repeat center;
+  
   min-height: 800px;
-  background-size: cover;
+  /*background-size: cover;*/
+  background-color: #1c33b0;
+  background-image: url(../images/banner-right.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-origin:content-box;
   animation-duration: 5s;
   animation-delay: 0s;
 }

@@ -1,8 +1,9 @@
+@charset "utf-8";
 .myself{
-	padding-top: 10%;
+	padding-top: 6%;
 }
 .myself-main{
-	line-height: 4rem;
+	line-height: 3.4rem;
 }
 .myself-main p,
 .myself-main h1{
@@ -18,7 +19,7 @@
 	font-size: 2.8rem;
 }
 .myself .myself-bottom{
-	padding-top: 3rem;
+	padding-top: 2rem;
 }
 .myself .myself-bottom a{
 	display: inline-block;
@@ -38,24 +39,95 @@
  .myself .myself-bottom a:first-child{
  	margin-right: 3%;
  }
+ img.my-pic{
+ 	width: 100%;
+ 	height: auto;
+ }
+ /*about css*/
+.about h1,
+.works h1{
+	font-size: 3rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+.about .my-info{
+ 	padding-top: 1.2rem;
+ 	line-height: 2rem;
+ }
+ ul.skills-progress{
+ 	width: 100%;
+ 	padding-left: 0;
+ 	margin-left: 0;
+ 	clear: all;
+ 	overflow: hidden;
+ }
+  ul.skills-progress li{
+  	float: left;
+  	width: 100%;
+  	list-style: none;
+ 	margin-top: 1.4rem;
+ }
+ .progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: .8rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 6rem;
+}
+ .progress-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    transition: width .6s ease;
+}
+.right-top p{
+	line-height: 1.8rem;
+}
+.works ul{
+	clear: all;
+	overflow: hidden;
+}
+.works ul li{
+	width: 100%;
+	margin-bottom: 2rem;
+	float: left;
+	list-style: none;
+}
+.works ul li img{
+	width: 100%;
+	height: auto;
+}
 @media(max-width:640px){
 .myself{
-	padding-top: 6%;
+	padding-top: 4%;
 }
 .myself-main h1{
 	font-size: 4rem;
 }
 .myself-main{
-	line-height: 1.4rem;
+	line-height: 1rem;
 }
 .myself-main p:nth-child(1){
-	font-size: .8rem;
+	font-size: 1rem;
 }
 .myself-main p.text{
-	font-size: .8rem;
+	font-size: 1rem;
 }
 .myself .myself-bottom{
-	padding-top: 1rem;
+	padding-top: 1.4rem;
 }
 .myself .myself-bottom a{
 	display: inline-block;

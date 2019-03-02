@@ -90,9 +90,7 @@ span.menu {
 	overflow:hidden;
 }
 .banner {
-  
-  min-height: 800px;
-  /*background-size: cover;*/
+  min-height: 600px;
   background-color: #1c33b0;
   background-image: url(../images/banner-right.png);
 	background-repeat:no-repeat;

@@ -45,7 +45,9 @@
  }
  /*about css*/
 .about h1,
-.works h1{
+.works h1,
+.experience h1,
+.contact h1{
 	font-size: 3rem;
 	padding-bottom: 2rem;
 	text-align: center;
@@ -109,6 +111,44 @@
 .works ul li img{
 	width: 100%;
 	height: auto;
+}
+.experience .row div{
+	margin-bottom: 1.6rem;
+}
+.experience .row div img{
+	width: 100%;
+	height: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.copy-right p{
+	color: #fff;
+	text-align: center;
+}
+.contact-box{
+	width: 1140px;
+	background: #fff;
+	border-radius: .6rem;
+	padding: 3%;
+	box-shadow: 0px 3px 8px rgba(0,0,0,.1);
+	clear: all;
+	overflow: hidden;
+}
+.contact-box .fr{
+	float: right;
+}
+.contact-box p{
+	padding-top: 1rem;
+}
+.contact-box input{
+	width: 80%;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: left;
+	border-bottom: 1px solid #000;
 }
 @media(max-width:640px){
 .myself{

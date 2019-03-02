@@ -1,0 +1,71 @@
+.myself{
+	padding-top: 10%;
+}
+.myself-main{
+	line-height: 4rem;
+}
+.myself-main p,
+.myself-main h1{
+	color: #fff;
+}
+.myself-main h1{
+	font-size: 5rem;
+}
+.myself-main p:nth-child(1){
+	font-size: 2rem;
+}
+.myself-main p.text{
+	font-size: 2.8rem;
+}
+.myself .myself-bottom{
+	padding-top: 3rem;
+}
+.myself .myself-bottom a{
+	display: inline-block;
+	width: 12rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1.4rem;
+	border-radius: 2rem;
+ 	background: #ff4081;
+}
+.myself .myself-bottom a:hover{
+	text-decoration: none;
+	background: rgba(255,64,129,.8);
+}
+ .myself .myself-bottom a:first-child{
+ 	margin-right: 3%;
+ }
+@media(max-width:640px){
+.myself{
+	padding-top: 6%;
+}
+.myself-main h1{
+	font-size: 4rem;
+}
+.myself-main{
+	line-height: 1.4rem;
+}
+.myself-main p:nth-child(1){
+	font-size: .8rem;
+}
+.myself-main p.text{
+	font-size: .8rem;
+}
+.myself .myself-bottom{
+	padding-top: 1rem;
+}
+.myself .myself-bottom a{
+	display: inline-block;
+	width: 6rem;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	text-align: center;
+	font-size: .8rem;
+	color: #fff;
+	border-radius: 2rem;
+ 	background: #ff4081;
+ }
+}

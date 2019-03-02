@@ -1,10 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>我的作品</title>
-</head>
-<body>
-	this is my work!
-</body>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <!--plugins css-->
+	    <link rel="stylesheet" href="assets/bootstrap-4.0.0-dist/css/bootstrap.min.css" media="all"/>
+	    <link rel="stylesheet" href="assets/animation/animate.min.css" />
+	    <link rel="stylesheet" href="assets/flexslider/css/flexslider.css" />
+	    <!--page css-->
+	    <link rel="stylesheet" href="css/style.css" />
+	    <link rel="stylesheet" href="css/new.css" />
+	    <!--plugs js-->
+	    <script type="text/javascript" src="assets/JQuery/jquery-3.3.1.min.js" ></script>
+		<title>Dan</title>
+	</head>
+	<body>
+		<!--header start here-->
+<div class="animated fadeIn banner">
+  	<div class="header">
+		<div class="container">
+			 <div class="header-main">
+					<div class="logo">
+						<h1><a href="index.html">Dan</a></h1>
+					</div>
+					<div class="top-nav">
+						<span class="menu"> <img src="images/icon.png" alt=""/></span>
+					 <nav class="cl-effect-16">
+						<ul class="res">
+						   <li><a href="index.html" class="active"  data-hover="Home">Home</a></li> 
+						   <li><a class="scroll" href="#about"  data-hover="About">About</a></li> 
+							<li><a class="scroll" href="#works"  data-hover="Works">Works</a></li> 
+							<li><a class="scroll" href="#experience"  data-hover="Experience">Experience</a></li> 
+							<li><a class="scroll" href="#contact"  data-hover="Contact">Contact</a></li> 
+					   </ul>
+					 </nav>
+					</div>				
+			 <div class="clearfix"> </div>
+		  </div>
+	    </div>
+	</div>
+	<section class="myself">
+		<div class="container">
+			<div class="myself-main">
+				<p class="animated fadeInDownBig">Who is fullname Luo,Fengdan</p>
+				<h1 class="animated fadeInLeftBig">Dan</h1>
+				<p class="animated fadeInDownBig text">I am a Designer,Thinker,Dreamer</p>
+			</div>
+			<div class="myself-bottom">
+				<a href="#">View Portfolio</a>
+				<!--<a href="#">Hide Me</a>-->
+			</div>
+		</div>
+	</section>
+</div>
+<!--about start here-->
+<div class="about" id="about">
+	<div class="container">
+		<div class="about-left">
+			
+		</div>
+		<div class="about-right">
+			
+		</div>
+	</div>
+</div>
+	<!-- script-for-menu -->
+	<script>
+		$( "span.menu" ).click(function() {
+			$( "ul.res" ).slideToggle( 300, function() {
+			// Animation complete.
+				});
+			});
+	</script>
+	<!-- /script-for-menu -->
+	</body>
 </html>

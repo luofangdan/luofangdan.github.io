@@ -3,20 +3,25 @@
 	padding-top: 6%;
 }
 .myself-main{
-	line-height: 3.4rem;
+	line-height: 1rem;
 }
 .myself-main p,
 .myself-main h1{
 	color: #fff;
 }
 .myself-main h1{
-	font-size: 5rem;
+	font-size: 2rem;
+	padding: 2rem 0;
 }
 .myself-main p:nth-child(1){
-	font-size: 2rem;
+	font-size: 5rem;
+	padding-top: 3rem;
+	padding-bottom: 4rem;
 }
 .myself-main p.text{
-	font-size: 2.8rem;
+	font-size: 1.2rem;
+	width: 50%;
+	line-height: 2rem;
 }
 .myself .myself-bottom{
 	padding-top: 2rem;
@@ -147,19 +152,22 @@ input.contact-inpute{
 	padding-top: 4%;
 }
 .myself-main h1{
-	font-size: 4rem;
+	font-size: 2rem;
+	padding: 1rem 0;
 }
 .myself-main{
 	line-height: 1rem;
 }
 .myself-main p:nth-child(1){
-	font-size: 1rem;
+	font-size: 4rem;
+	padding: 2rem 0;
 }
 .myself-main p.text{
 	font-size: 1rem;
+	width: 80%;
 }
 .myself .myself-bottom{
-	padding-top: 1.4rem;
+	padding-top: 1rem;
 }
 .myself .myself-bottom a{
 	display: inline-block;
